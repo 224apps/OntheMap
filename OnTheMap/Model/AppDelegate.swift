@@ -2,10 +2,9 @@
 //  AppDelegate.swift
 //  OnTheMap
 //
-//  Created by Ahmed on 6/25/19.
-//  Copyright © 2019 supergenedy. All rights reserved.
+//  Created by Abdoulaye Diallo on 4/24/20.
+//  Copyright © 2020 supergenedy. All rights reserved.
 //
-
 import UIKit
 
 @UIApplicationMain

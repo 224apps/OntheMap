@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE22B14622C3DF7100CFD6A5 /* SetLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22B14522C3DF7100CFD6A5 /* SetLocationViewController.swift */; };
 		DE9945E622C18EEC0009F836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9945E522C18EEC0009F836 /* AppDelegate.swift */; };
-		DE9945E822C18EEC0009F836 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9945E722C18EEC0009F836 /* ViewController.swift */; };
+		DE9945E822C18EEC0009F836 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9945E722C18EEC0009F836 /* LoginViewController.swift */; };
 		DE9945EB22C18EEC0009F836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9945E922C18EEC0009F836 /* Main.storyboard */; };
 		DE9945ED22C18EF00009F836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9945EC22C18EF00009F836 /* Assets.xcassets */; };
 		DE9945F022C18EF00009F836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9945EE22C18EF00009F836 /* LaunchScreen.storyboard */; };
+		DE9945FA22C1925C0009F836 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9945F922C1925C0009F836 /* MapViewController.swift */; };
+		DE9945FF22C1A76E0009F836 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9945FE22C1A76E0009F836 /* AlertHelper.swift */; };
+		DE99460122C1A9AE0009F836 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99460022C1A9AE0009F836 /* Contants.swift */; };
+		DE99460322C1B7160009F836 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99460222C1B7160009F836 /* Student.swift */; };
+		DE99460722C1B84E0009F836 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99460622C1B84E0009F836 /* AddLocationViewController.swift */; };
+		DE99460922C2B54D0009F836 /* AuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99460822C2B54D0009F836 /* AuthClient.swift */; };
+		DE99460C22C2B7D20009F836 /* StudentsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99460B22C2B7D20009F836 /* StudentsClient.swift */; };
+		DE99460E22C2C0DA0009F836 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99460D22C2C0DA0009F836 /* AuthModel.swift */; };
+		DE99461022C2DCD70009F836 /* StudentListViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99460F22C2DCD70009F836 /* StudentListViewControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE22B14522C3DF7100CFD6A5 /* SetLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLocationViewController.swift; sourceTree = "<group>"; };
 		DE9945E222C18EEC0009F836 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9945E522C18EEC0009F836 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE9945E722C18EEC0009F836 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE9945E722C18EEC0009F836 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DE9945EA22C18EEC0009F836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE9945EC22C18EF00009F836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE9945EF22C18EF00009F836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE9945F122C18EF00009F836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9945F922C1925C0009F836 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DE9945FE22C1A76E0009F836 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		DE99460022C1A9AE0009F836 /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		DE99460222C1B7160009F836 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		DE99460622C1B84E0009F836 /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		DE99460822C2B54D0009F836 /* AuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthClient.swift; sourceTree = "<group>"; };
+		DE99460B22C2B7D20009F836 /* StudentsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsClient.swift; sourceTree = "<group>"; };
+		DE99460D22C2C0DA0009F836 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		DE99460F22C2DCD70009F836 /* StudentListViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListViewControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BF0742922DB65400024A7D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE9945E722C18EEC0009F836 /* LoginViewController.swift */,
+				DE9945F922C1925C0009F836 /* MapViewController.swift */,
+				DE99460F22C2DCD70009F836 /* StudentListViewControllerViewController.swift */,
+				DE99460622C1B84E0009F836 /* AddLocationViewController.swift */,
+				DE22B14522C3DF7100CFD6A5 /* SetLocationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4BF0742A22DB655E0024A7D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE9945E922C18EEC0009F836 /* Main.storyboard */,
+				DE9945EE22C18EF00009F836 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BF0742B22DB65750024A7D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE99460022C1A9AE0009F836 /* Contants.swift */,
+				DE99460D22C2C0DA0009F836 /* AuthModel.swift */,
+				DE99460222C1B7160009F836 /* Student.swift */,
+				DE99460822C2B54D0009F836 /* AuthClient.swift */,
+				DE99460B22C2B7D20009F836 /* StudentsClient.swift */,
+				DE9945FE22C1A76E0009F836 /* AlertHelper.swift */,
+				DE9945E522C18EEC0009F836 /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DE9945D922C18EEC0009F836 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +109,10 @@
 		DE9945E422C18EEC0009F836 /* OnTheMap */ = {
 			isa = PBXGroup;
 			children = (
-				DE9945E522C18EEC0009F836 /* AppDelegate.swift */,
-				DE9945E722C18EEC0009F836 /* ViewController.swift */,
-				DE9945E922C18EEC0009F836 /* Main.storyboard */,
+				4BF0742B22DB65750024A7D4 /* Model */,
+				4BF0742A22DB655E0024A7D4 /* Views */,
+				4BF0742922DB65400024A7D4 /* Controllers */,
 				DE9945EC22C18EF00009F836 /* Assets.xcassets */,
-				DE9945EE22C18EF00009F836 /* LaunchScreen.storyboard */,
 				DE9945F122C18EF00009F836 /* Info.plist */,
 			);
 			path = OnTheMap;
@@ -135,7 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9945E822C18EEC0009F836 /* ViewController.swift in Sources */,
+				DE9945FF22C1A76E0009F836 /* AlertHelper.swift in Sources */,
+				DE99460922C2B54D0009F836 /* AuthClient.swift in Sources */,
+				DE99460322C1B7160009F836 /* Student.swift in Sources */,
+				DE9945E822C18EEC0009F836 /* LoginViewController.swift in Sources */,
+				DE99460722C1B84E0009F836 /* AddLocationViewController.swift in Sources */,
+				DE99460122C1A9AE0009F836 /* Contants.swift in Sources */,
+				DE99460E22C2C0DA0009F836 /* AuthModel.swift in Sources */,
+				DE99460C22C2B7D20009F836 /* StudentsClient.swift in Sources */,
+				DE99461022C2DCD70009F836 /* StudentListViewControllerViewController.swift in Sources */,
+				DE9945FA22C1925C0009F836 /* MapViewController.swift in Sources */,
+				DE22B14622C3DF7100CFD6A5 /* SetLocationViewController.swift in Sources */,
 				DE9945E622C18EEC0009F836 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,14 +346,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBK5M8ST9U;
 				INFOPLIST_FILE = OnTheMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.supergenedy.OnTheMap;
+				PRODUCT_BUNDLE_IDENTIFIER = "On-The-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +366,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBK5M8ST9U;
 				INFOPLIST_FILE = OnTheMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.supergenedy.OnTheMap;
+				PRODUCT_BUNDLE_IDENTIFIER = "On-The-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
